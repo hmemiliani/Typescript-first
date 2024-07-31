@@ -18,3 +18,5 @@ console.log('\nTarea 1\n');
 require('./3. Funciones/tarea1');
 console.log('\nTarea 2\n');
 require('./3. Funciones/tarea2');
+console.log('\nTarea 3\n');
+require('./3. Funciones/tarea3');
