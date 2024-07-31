@@ -1,11 +1,12 @@
+"use strict";
 function stryngsConcatenados(strings) {
-    return strings.reduce(function (acum, value) {
+    return strings.reduce((acum, value) => {
         return acum + value;
     });
 }
 ;
-var palabras = ["Hola", " ", "Riwi", "!"];
-var frase = ["Hola", " ", "a", " ", "todos", " ", "esto", " ", "es", " ", "una", " ", "prueba"];
-var result1 = stryngsConcatenados(palabras);
-var result2 = stryngsConcatenados(frase);
+const palabras = ["Hola", " ", "Riwi", "!"];
+const frase = ["Hola", " ", "a", " ", "todos", " ", "esto", " ", "es", " ", "una", " ", "prueba"];
+const result1 = stryngsConcatenados(palabras);
+const result2 = stryngsConcatenados(frase);
 console.log(result1, ' ', result2);

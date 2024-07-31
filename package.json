@@ -3,16 +3,19 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "./index.ts"
+    "start": "tsc && node index.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "devDependencies": {
-    "typescipt": "^1.0.0"
+    "typescipt": "^1.0.0",
+    "typescript": "^5.5.4"
   },
   "dependencies": {
-    "typescript": "^5.5.4"
+    "@types/node": "^22.0.0",
+    "nodemon": "^3.1.4",
+    "ts-node": "^10.9.2"
   }
 }
